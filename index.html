@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Manlio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <!-- <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li> -->
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Yo.png" alt="">
+            </div>
+            <h1>MANLIO QUINTANA</h1>
+            <h2>Ingeniero en Mecatronica - Diseñador 3d, y mas.</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/xdmanlio.quintana/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/manlioquintana/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/manlio-quintana/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Manlio Quintana.</span> Soy un estudiante de ingeniería mecatrónica que busca desempeñarse en empresas del sector privado, enfocadas especialmente a la automatización, el diseño y la programación. 
+                Profesional que sabe enfocarse, comunicarse y solucionar problemas desde diferentes perspectivas en sus equipos de trabajo. Hombre que posee grandes habilidades, tales como: responsabilidad, organización metodológica y liderazgo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-12-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            5632995858
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            quintanamanlioabraham@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Estado de México
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante en ultimo año</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>ROBOTS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-lightbulb"></i>
+                            <span>ELECTRONICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-desktop"></i>
+                            <span>AUTOMATION</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- -->
+            <!--<button> -->
+            <!--    Descargar CV <i class="fa-solid fa-download"></i> -->
+            <!--    <span class="overlay"></span> -->
+            <!-- </button> -->
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div>
+            <h2>(Pagina aun en desarrollo)</h2>
+        </div>
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>SolidWorks</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PTC Creo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <!--<section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="#Celda-Soldadura">
+                        <img src="img\Welding.png" alt="">
+                        <div class="overlay">
+                            <h3>Celda de soldadura</h3>
+                            <p>ABB</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="#Remadora">
+                        <img src="img\Remadora.png" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Remadora</h3>
+                            <p>Lifefitness</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="#DummyEngine">
+                        <img src="img\DeepSea.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Dummy Engine for Controller Testing</h3>
+                            <p>Generac</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img\3dPrinter2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Impresión 3D, Creación brazo robotico</h3>
+                        <p>Personal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<!-- SECCION SOBRE MI -->
+<section id="Celda-Soldadura" class="sobremi">
+    <div class="contenido-seccion">
+        <h2> Trayectoria de una celda de soldadura automatizado</h2>
+        <p><span>ABB.</span> El reto
+            consiste en el diseño y desarrollo de una estación de trabajo robotizada en una celda de
+            manufactura industrial, que tiene lugar en el área mecánica y automotriz, ya que tiene el
+            propósito de realizar la soldadura de dos elementos que forman parte de la defensa
+            delantera de una camioneta tipo pickup. Implementamos dos brazos robóticos
+            manipuladores para encontrar una solución óptima a la problemática. Al tener relación con
+            la empresa ABB tuvimos la oportunidad de conocer sus productos que se encuentran en el
+            mercado y también los posicionadores que complementan perfectamente este tipo de
+            proyectos, entre otros productos, como el software RobotStudio que fue indispensable para
+            la realización de este proyecto.
+            La planificación y ejecución de este</p>
+
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Informacion general</h3>
+                <ul>
+                    <li>
+                        <strong>Cabezal</strong>
+                        Cabezal YW52 marca Precitec
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\Cabezal.png" alt="" height="300">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Brazo</strong>
+                        IRB1600 10 kg/ 1.2m marca ABB
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\Brazo.png" alt="" height="300">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Mesa posicionadora</strong>
+                        IRBP R 300
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\Mesa.png" alt="" height="300">
+                        </div>
+                    </li>
+                </ul> 
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                <h3>-</h3>
+                <div class="contenedor-intereses">
+                    <ul>
+                        <li>
+                            <strong>Tooling</strong>
+                            Tooling que sostiene las piezas
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <img src="img\Tooling.png" alt="" height="300">
+                            </div>
+                        </li>
+                        <li>
+                            <strong>Celda terminada</strong>
+                            Celda finalizada
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <img src="img\Welding.png" alt="" height="300">
+                            </div>
+                        </li>
+                        <li>
+                            <strong>Video</strong>
+                            Dar click derecho y presionar "Reproducir"
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <video src="img\Prueba.mp4" alt="" height="300">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <button> 
+            <a href="img\Celda de soldadura.pdf" download="Celda de soldadura">
+                Descargar Reporte <i class="fa-solid fa-download"></i> 
+                <span class="overlay"></span> 
+            </a>
+         </button> 
+        
+    </div>
+</section>
+
+
+<!-- SECCION SOBRE MI -->
+<section id="Remadora" class="sobremi">
+    <div class="contenido-seccion">
+        <h2> Diseño de una Remadora de Agua</h2>
+        <p><span>LifeFitness.</span> En este reto tenemos el objetivo de diseñar un equipo de ejercicio para el área de deportes del
+            Tecnológico de Monterrey, donde se debe considerar la usabilidad, materiales y un proceso de
+            manufactura estándar y accesible para la creación de este equipo, en este caso el equipo que
+            se va a diseñar es un ergómetro o más conocido como remadora. Esta remadora consiste en
+            una máquina que simula el entrenamiento de un kayak o una canoa mediante una turbina
+            centrífuga que imita la resistencia del agua, donde regulando la cantidad de agua podemos
+            dar una mayor o menor intensidad al ejercicio, esta máquina se compone de una pértiga
+            similar a la de las palas para remar, un asiento, apoyo para los pies y un disco volante que
+            ofrece la resistencia con cada golpe.
+            La “FRIMS Rower” fue hecha con la intención de cumplir las características de una máquina
+            para hacer ejercicio, es confiable, resistente y segura. Esta remadora está hecha para el uso
+            diario, considerando las necesidades del área de deportes, es un aparato que tiene la
+            capacidad de brindar un uso constante, duradero y eficiente, fue hecha con materiales con
+            especificaciones muy exactas para su uso, procesos de manufactura especiales en cada pieza
+            y ensamble, con esto podemos asegurar que es la mejor remadora que se puede ofrecer.</p>
+
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Informacion general</h3>
+                <ul>
+                    <li>
+                        <strong>Vistas</strong>
+                        Plano con diferentes angulos de analisis
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\Vistas.png" alt="" height="325">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Piezas</strong>
+                        Plano con el total de piezas que se diseñaron
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\Piezas.png" alt="" height="325">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Plano</strong>
+                        Plano del reposapies
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\Reposapies.png" alt="" height="325">
+                        </div>
+                    </li>
+                </ul> 
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                <h3>-</h3>
+                <div class="contenedor-intereses">
+                    <ul>
+                        <li>
+                            <strong>Plano</strong>
+                            Plano del tanque de agua
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <img src="img\TanqueAgua.png" alt="" height="325">
+                            </div>
+                        </li>
+                        <li>
+                            <strong>Plano</strong>
+                            Plano carrito
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <img src="img\Carrito.png" alt="" height="300">
+                            </div>
+                        </li>
+                        <li>
+                            <strong>Video</strong>
+                            Dar click derecho y presionar "Reproducir".    
+                            Vista extruida del ensamble.
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <video src="img\Extrude.mp4" alt="" height="300">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <button> 
+            <a href="img\Evidencia Reto Remadora.pdf" download="Planos Remadora">
+                Descargar Planos <i class="fa-solid fa-download"></i> 
+                <span class="overlay"></span> 
+            </a>
+         </button> 
+         <button> 
+            <a href="img\FRIMS Rower (1).pptx" download="Presentación">
+                Descargar Presentación <i class="fa-solid fa-download"></i> 
+                <span class="overlay"></span> 
+            </a>
+         </button> 
+    </div>
+</section>
+
+
+<!-- SECCION SOBRE MI -->
+<section id="DummyEngine" class="sobremi">
+    <div class="contenido-seccion">
+        <h2> Elaboración de un Motor Simulado para Pruebas de Controladores</h2>
+        <p><span>Generac</span> La base del proyecto fue el protocolo CAN para comunicar los dispositivos, este protocolo solo requiere de un par de cables para comunicar todos los mensajes. Los mensajes en el protocolo CAN viajan en paquetes que contienen la dirección del transmisor y el código del mensaje. E implementamos el protocolo CAN con Arduino (tanto sus librerías como sus módulos).
+            El socio formador GENERAC nos proporcionó una lista de variables y sus rangos, que deberíamos poder modificar con nuestro dispositivo, variables como RPM, presión de aceite, nivel de aceite, etc.</p>
+
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Informacion general</h3>
+                <ul>
+                    <li>
+                        <strong>Simulador Motor</strong>
+                        Diagrama electrico del simulador de motor
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\DiagramaElectrico.png" alt="" height="325">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Medidas Caja</strong>
+                        Plano con el total de piezas que se diseñaron
+                    </li>
+                    <li>
+                        <div class="contenedor-img">
+                            <img src="img\Medidas.png" alt="" height="325">
+                        </div>
+                    </li>
+                </ul> 
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                <h3>-</h3>
+                <div class="contenedor-intereses">
+                    <ul>
+                        <li>
+                            <strong>Simulador y controlador</strong>
+                            Dispositivo final conectado al controlador.
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <img src="img\2il.png" alt="" height="225">
+                            </div>
+                        </li>
+                        <li>
+                            <strong>Video</strong>
+                            Dar click derecho y presionar "Reproducir".    
+                        </li>
+                        <li>
+                            <div class="contenedor-img">
+                                <video src="img\ProposedSolutionEnglish.mp4" alt="" height="300">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <button> 
+            <a href="img\Elaboration of a Dummy Engine for Controller Testing.pdf" download="Planos Remadora">
+                Descargar Reporte <i class="fa-solid fa-download"></i> 
+                <span class="overlay"></span> 
+            </a>
+         </button> 
+         <button> 
+            <a href="img\DummyEngineJ1939.ino" download="Presentación">
+                Descargar Codigo <i class="fa-solid fa-download"></i> 
+                <span class="overlay"></span> 
+            </a>
+         </button> 
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>(Fase desarrollo)</h2>
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
